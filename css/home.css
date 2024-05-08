@@ -1,0 +1,52 @@
+
+:root{
+    --main-clr: #0F142B;
+    --secondary-clr: #b1f315;
+    --main-text-clr:#fff;
+    --main-paragraph-clr:#666872;
+    --secondary-font: "Urbanist", sans-serif;
+    --index-clr: #f0f6fa;
+    --border-raduis: 10px;
+}
+
+.Ellipse-7{
+    right: 20px;
+    top: 132px;
+}
+.Hero{
+    height: calc(100vh - 100px);
+    background-image: url(/images/Vector.png);
+    background-repeat: repeat;
+    width: 100%;
+    background-color: var(--main-clr);
+    overflow: hidden;
+
+}
+.Hero .Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Hero .image{
+    width:350px;
+    height: auto;
+}
+
+.Hero img{
+    width: 100%;
+    border-radius: var(--border-raduis);
+}
+
+.Hero h1.hero-title {
+    font-family: var(--secondary-font);
+  font-size: 200px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
